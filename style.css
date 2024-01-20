@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  background-color: #1e213f;
+}
+
+.pomodoro {
+  position: relative;
+  font-size: 40px;
+  text-align: center;
+  top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  opacity: 0.7;
+}
+
+.d0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d1 {
+  position: relative;
+  top: 70px;
+  border-radius: 40px;
+  height: 58px;
+  width: 350px;
+  background-color: #0e101f;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.d2 {
+  position: relative;
+  border-radius: 40px;
+  left: 4px;
+  bottom: 0.5px;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 112, 112);
+  text-align: center;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.772);
+
+  flex: 1;
+}
+
+.d3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  flex: 1;
+}
+
+.d4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  flex: 1;
+}
+
+.t {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer {
+  position: relative;
+  top: 150px;
+  height: 350px;
+  width: 350px;
+  background-color: #15172b;
+  border: 20px solid;
+  border-radius: 50%;
+  border-color: #25284b;
+  box-shadow: 0 0 20px 20px #373c76;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.setting {
+  position: absolute;
+  top: 95%;
+  right: 49%;
+  height: 25px;
+  width: 25px;
+  opacity: 0.7;
+}
+
+.setting:hover {
+  opacity: 1;
+}
+
+#time {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
+
+.start {
+  color: white;
+  position: relative;
+  bottom: 20px;
+  left: 80px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.start:hover {
+  color: orange;
+}
+
+.replay {
+  margin: none;
+  padding: none;
+  height: 25px;
+  width: auto;
+  color: white;
+  position: relative;
+  left: 100px;
+  bottom: 17px;
+}
+
+.Saksham {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: white;
+  position: fixed;
+  top: 85%;
+  left: 76%;
+}
